@@ -133,7 +133,7 @@ sudo systemctl restart apache2
 dig okikiola.xyz
 nslookup okikiola.xyz
 ​```
-![DNS resolution test](screenshots/dig-test.png)
+![DNS resolution test](digshot.PNG)
 Confirms the domain correctly resolves to the web server's IP address.
 ### Web Server Access
 Navigated to `http://okikiola.xyz` in a browser to confirm Apache is serving the site using the domain name, not just the raw IP.
