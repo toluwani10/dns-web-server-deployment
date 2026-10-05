@@ -88,7 +88,7 @@ $TTL    604800
                          2419200        ; Expire
                           604800 )      ; Negative Cache TTL
 @       IN       NS      ns.okikiola.xyz.
-101     IN       PTR     ns.okikiola.xyz.
+101     IN       PTR     okikiola.xyz.
 ```
 This file holds the **PTR record**, which does the opposite of the forward 
 zone — it maps the IP address back to a hostname, so `dig -x 192.168.18.101` 
