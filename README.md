@@ -137,10 +137,10 @@ nslookup okikiola.xyz
 Confirms the domain correctly resolves to the web server's IP address.
 ### Web Server Access
 Navigated to `http://okikiola.xyz` in a browser to confirm Apache is serving the site using the domain name, not just the raw IP.
-![Web server running](screenshots/apache-test.png)
+![Web server running](apache.png)
 ### Reverse DNS
 ​```bash
 dig -x 192.168.18.101
 ​```
-![DNS resolution test](screenshots/dig2-test.png)
+![DNS resolution test](dig2.PNG)
 Confirms the IP resolves back to the correct hostname.
